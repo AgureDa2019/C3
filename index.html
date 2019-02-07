@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>棒グラフサンプル(c3.js) </title>
+<!-- Load c3.css -->
+<link href="css/c3.min.css" rel="stylesheet" type="text/css">
+<style>
+.c3-texts .c3-text text {
+  transform: translate(-50px, 0);
+}
+</style>
+<!-- Load d3.js and c3.js -->
+<script src="js/d3.v3.min.js" charset="utf-8"></script>
+<script src="js/c3.min.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+<h1>c3.jsを利用した積み上げグラフのサンプル（Jsonデータ）</h1>
+<p>注意）DB参照せず、jsonファイルを直接参照しています。ローカルでのテスト確認用です。</p>
+<div id="chart_stacked_bar""></div>
+<script src="js/c3groupbar_sample.js" type="text/javascript"></script>
+</body>
+</html>
+
